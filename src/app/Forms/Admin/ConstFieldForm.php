@@ -29,6 +29,12 @@ class ConstFieldForm extends Form
             'label' => 'admin.const_field.company_name',
             'rules' => [],
         ],
+        'company_person' => [
+            'name' => 'company_person',
+            'type' => 'text',
+            'label' => 'admin.const_field.company_person',
+            'rules' => [],
+        ],
         'company_address' => [
             'name' => 'company_address',
             'type' => 'text',

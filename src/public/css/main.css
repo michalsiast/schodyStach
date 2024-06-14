@@ -18,9 +18,7 @@
   display: block;
   margin-top: 1rem!important;
 }
-.g-recaptcha > div {
-  margin: 0 auto 1rem;
-}
+
 @media (max-width: 600px) {
   .g-recaptcha {
     transform: scale(0.75);
@@ -41,21 +39,22 @@ a:focus {
 }
 .mainRotator .prev,
 .mainRotator .next {
+    color: var(--theme);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   z-index: 5;
-  width: 3rem;
-  height: 5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   line-height: 1;
   border: none;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  font-weight: 800;
+  background: unset;
+    border: 2px solid var(--theme);
+  border-radius: 45px;
   transition: 0.3s ease-in-out;
 }
 .mainRotator .prev:hover,
@@ -70,7 +69,7 @@ a:focus {
 }
 .mainRotator__item {
   position: relative;
-  height: 60vh;
+  height: 80vh;
   min-height: 40rem;
   background-size: cover;
   background-position: center center;

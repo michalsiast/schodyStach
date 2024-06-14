@@ -20,8 +20,21 @@ abstract class PageType extends Enum
         'module' => false,
         'fields' => [
             'rotator' => ['rotator', 'Slider'],
-            'head1' => ['head', 'Tytuł'],
-            'text1' => ['text', 'Tekst'],
+            'subtitle_about_section' => ['head', 'Podtytuł - Sekcja O nas'],
+            'title_about_section' => ['head', 'Nagłówek - Sekcja O nas'],
+            'description_about_section' => ['text', 'Opis - Sekcja O nas'],
+            'list_about_section' => ['text', 'Lista - Sekcja O nas'],
+            'header_service_section' => ['head', 'Nagłówek - Dlaczego my?'],
+            'title_service_section' => ['head', 'Tytuł - Dlaczego my?'],
+            'work_process_subtitle' => ['head', 'PodTytuł - Proces Pracy'],
+            'work_process_title' => ['head', 'Nagłówek - Proces Pracy'],
+            'offer_subtitle' => ['head', 'Podtytuł - Oferta'],
+            'offer_title' => ['head', 'Nagłówek - Oferta'],
+            'offer_description' => ['text', 'Opis - Oferta'],
+            'header_contact' => ['head', 'Nagłówek - Kontakt'],
+            'description_contact' => ['text', 'Opis - Kontakt'],
+            'contact_us_header' => ['head', 'Nagłówek - Kontakt'],
+            'get_in_touch_title' => ['head', 'Nagłówek - Skontaktuj się z nami'],
         ]
     ];
     const PAGE_SHOW = [

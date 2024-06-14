@@ -67,14 +67,14 @@ return [
 
 
     'article.singular' => 'Artykuł',
-    'article.plural' => 'Artykuły',
+    'article.plural' => 'Dlaczego my/Jak działamy',
     'article.title' => 'Tytuł',
     'article.lead' => 'Wprowadzenie',
     'article.text' => 'Tekst',
 
 
     'article_category.singular' => 'Kategoria artykułu',
-    'article_category.plural' => 'Kategoria artykułów',
+    'article_category.plural' => 'Kategoria Dlaczego my/Jak działamy',
     'article_category.title' => 'Tytuł',
     'article_category.lead' => 'Wprowadzenie',
     'article_category.text' => 'Tekst',
@@ -131,7 +131,7 @@ return [
 
 
     'realization.singular' => 'Realizacja',
-    'realization.plural' => 'Realizacje',
+    'realization.plural' => 'Galeria',
     'realization.title' => 'Tytuł',
     'realization.lead' => 'Wprowadzenie',
     'realization.text' => 'Tekst',
@@ -151,6 +151,7 @@ return [
     'const_field.contact_details' => 'Kontakt',
     'const_field.page_title' => 'Tytuł',
     'const_field.company_name' => 'Nazwa',
+    'const_field.company_person' => 'Osoba',
     'const_field.company_post_code' => 'Kod pocztowy',
     'const_field.company_address' => 'Adres',
     'const_field.company_city' => 'Miasto',
